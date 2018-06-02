@@ -6,7 +6,7 @@ export default class Home extends React.Component {
         return (
             <View style={styles.container}>
                 <StatusBar barStyle={'light-content'}/>
-                <Text>Hello React-Native-Boilerplate!</Text>
+                <Text>Welcome Home</Text>
             </View>
         );
     }
