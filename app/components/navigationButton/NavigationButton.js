@@ -1,10 +1,11 @@
 import React from 'react'
 import { Image, TouchableOpacity } from 'react-native'
+import { images } from '../../../assets'
 
 export default onPress => {
     return (
         <TouchableOpacity onPress={onPress}>
-            <Image source={} style={styles.icon}/>
+            <Image source={images.menu} style={styles.icon}/>
         </TouchableOpacity>
     )
 }
